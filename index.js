@@ -26,9 +26,6 @@ module.exports = class ContractImportBuilder {
             )
         }
 
-        // read existing contract
-        console.log(abi)
-
         fs.exists(this.importOutput, exists => {
             if (exists) {
                 // const existing = fs.readFileSync(this.importOutput)
@@ -45,7 +42,6 @@ module.exports = class ContractImportBuilder {
             })
 
             this.contractImport[name] = {
-                // raw: require(`./build/contracts/${abi.contractName}.json`),
                 raw: {
                     abi: abi._jsonInterface
                 },

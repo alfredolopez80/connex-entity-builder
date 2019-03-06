@@ -1,6 +1,6 @@
 {
   "name": "@decent-bet/connex-entity-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple builder that reads Truffle generated JSON interfaces and generates imports and entities",
   "main": "index.js",
   "scripts": {
