@@ -7,7 +7,7 @@ A simple builder that reads Truffle generated JSON interfaces and generates impo
 
 ## How to use with Truffle migrations
 
-1. Add library: `'const ContractImportBuilder = require('@decent-bet/connex-entity-builder')`
+1. Add library: `const ContractImportBuilder = require('@decent-bet/connex-entity-builder')`
 2. Create instance and set output
 ```javascript
 module.exports = (web3, dbet, deployer, args) => {
