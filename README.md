@@ -3,7 +3,7 @@ A simple builder that reads Truffle generated JSON interfaces and generates impo
 
 ## Install
 
-TODO
+`npm i @decent-bet/connex-entity-builder`
 
 ## How to use with Truffle migrations
 
