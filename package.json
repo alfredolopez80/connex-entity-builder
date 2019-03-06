@@ -1,0 +1,19 @@
+{
+  "name": "@decent-bet/connex-entity-builder",
+  "version": "1.0.0",
+  "description": "A simple builder that reads Truffle generated JSON interfaces and generates imports and entities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decent-bet/connex-entity-builder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/decent-bet/connex-entity-builder/issues"
+  },
+  "homepage": "https://github.com/decent-bet/connex-entity-builder#readme"
+}
